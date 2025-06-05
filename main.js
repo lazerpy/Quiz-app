@@ -2,68 +2,109 @@
 const questions = [
         
    {    
-        question : " Who is the best gk in efootball?",
+        question : " Who is the best Lb in efootball?",
         answers: [
- { text: "Victer bia", correct : false},
- { text: "Picform", correct : false},
-{ text: "schemical", correct : true},
- { text: "p.check", correct : false}
+ { text: "Maldink", correct : false},
+ { text: "Carlos", correct : false},
+{ text: "Mo barre", correct : true},
+ { text: "costarcuta", correct : false}
         ]  
    },
       {    
-        question : "what is highest level in efootball ?",
+        question : "Who is best player in the group chat ?",
         answers: [
- { text: "world champion", correct : true},
- { text: "division 1", correct : false},
- { text: "Rank 1 in division", correct : false},
- { text: "Rank 1 in local tournaments", correct : false},
+ { text: "Fitax", correct : true},
+ { text: "Aweys", correct : false},
+ { text: "Mascud", correct : false},
+ { text: "Vidic", correct : false},
  
         ]  
    },
    
 {    
-        question : " what is best formation ever in efootball ?",
+        question : " who is worst player in the group chat ?",
         answers: [
- { text: "4222", correct : false},
- { text: "4132", correct : false},
- { text: "4312", correct : false},
- { text: "541", correct : true},
+ { text: "C.raxman", correct : false},
+ { text: "Aweys", correct : false},
+ { text: "Cuseeb", correct : false},
+ { text: "Mascud", correct : true},
  
         ]  
    },
    
    {    
-        question : " who is the best efootabll player in world?",
+        question : " Is suqaxolaha country ?",
         answers: [
- { text: "messi", correct : false},
- { text: "Yamakuji", correct : false},
- { text: "remato", correct : true},
- { text: "Mo barre", correct : false},
+ { text: "Yes", correct : true},
+ { text: "Yes", correct : true},
+ { text: "Yes", correct : true},
+ { text: "No", correct : false},
  
         ]  
    },
    
    {    
-        question : " who is the best CF in efootball ?",
+        question : " Which one is the best playstyle ?",
         answers: [
- { text: "Messi", correct : false},
- { text: "Eto", correct : false},
- { text: "Rumminage", correct : true},
- { text: "Mo barre", correct : false},
+ { text: "Long ball counter", correct : false},
+ { text: "Long ball", correct : false},
+ { text: "Quick counter", correct : true},
+ { text: "Position game", correct : false},
  
         ]  
    }
    ,
    {
-        question: " who is the best RB in efootball ?",
+        question: " which one is the scariest play stile  ?",
         answers: [
-                { text: "Thuram", correct: true },
-                { text: "arnold", correct: false },
-                { text: "Cafu", correct: false },
-                { text: "Mo barre", correct: false },
+                { text: "Tiki taka", correct: true },
+                { text: "clear ball", correct: false },
+                { text: "Croas style", correct: false },
+                { text: "Daf miriq", correct: false },
                 
         ]
-}
+},
+   {
+        question: " which player has the highest speed  ?",
+        answers: [
+                { text: "Eto", correct: false },
+                { text: "davies", correct: true },
+                { text: "Lukaku", correct: false },
+                { text: "Mbappe", correct: false },
+                
+        ]
+},
+   {
+           question: " which one is the best game skill  ?",
+           answers: [
+                   { text: "Phenomenal finishing", correct: false },
+                   { text: "Blitz curler", correct: false },
+                   { text: "Bullet header", correct: false },
+                   { text: "Rocket shoot", correct: true },
+                   
+           ]
+   },
+      {
+           question: " what was the best season in efootball   ?",
+           answers: [
+                   { text: "Pes 21", correct: true },
+                   { text: "efootball 2025", correct: false },
+                   { text: "pes 2017", correct: false },
+                   { text: "efootball 2026", correct: false },
+                   
+           ]
+   },
+      {
+           question: " which one is the best additional skill in pes  ?",
+           answers: [
+                   { text: "Heading", correct: false },
+                   { text: "Super-sub", correct: false },
+                   { text: "double touch", correct: true },
+                   { text: "One touch pass", correct: false },
+                   
+           ]
+   }
+
         
 ];
 
@@ -149,7 +190,7 @@ function next(){
 
 function scoreText(){
         reset();
-        questionEl.innerHTML = `you scored ${score} out of ${questions.length}!`
+        questionEl.innerHTML = `you scored ${score} out of ${questions.length} what a performance!`
         nextBtn.innerHTML = 'Play Again ';
         nextBtn.style.display = "block";
         
